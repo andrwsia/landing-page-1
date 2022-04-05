@@ -1,0 +1,37 @@
+// Mixin -- START //
+@mixin gradienta-bg-1 {
+    background: radial-gradient(100% 225% at 0% 0%, #DE3E3E 0%, #17115C 100%), 
+    radial-gradient(100% 225% at 100% 0%, #FF9040 0%, #FF0000 100%), 
+    linear-gradient(180deg, #CE63B7 0%, #ED6283 100%), 
+    radial-gradient(100% 120% at 75% 0%, #A74600 0%, #000000 100%), 
+    linear-gradient(310deg, #0063D8 0%, #16009A 50%);
+    background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
+}
+// Mixin -- END //
+
+// Main SCSS -- START //
+.partners__container {
+    width: 100vw;
+    height: 15%;
+    position: relative;
+    .partners__row {
+        @include gradienta-bg-1;
+        width: 100vw;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .col__partner {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            padding: 15px;
+            img {
+                filter: invert(100%);
+            }
+        }
+    }
+}
+// Main SCSS -- END //

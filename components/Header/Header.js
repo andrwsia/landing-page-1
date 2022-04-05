@@ -9,16 +9,16 @@ export default function header() {
                 <li>
                     <ul className="mobile-menu-bar__sub">
                         <li className="header__collections-link">
-                            <a href="/">Home</a>
+                            <a href="/#hero-section">Home</a>
                         </li>
                         <li className="header__collections-link">
-                            <a href="/">About</a>
+                            <a href="/#about-section">About</a>
                         </li>
                         <li className="header__collections-link">
-                            <a href="/">Collections</a>
+                            <a href="/#collection-section">Collections</a>
                         </li>
                         <li className="header__collections-link">
-                            <a href="/">Subscriptions</a>
+                            <a href="/#subscriptions-section">Subscriptions</a>
                         </li>
                         <li className="header__collections-link">
                             <a href="/">Sign In</a>
@@ -33,20 +33,20 @@ export default function header() {
             {/* MOBILE END */}
             <ul className="header__collections-nav">
                 <li className="header__collections-link">
-                    <Link href="/">Home</Link>
+                    <Link href="/#hero-section">Home</Link>
                 </li>
                 <li className="header__collections-link">
-                    <Link href="/">About</Link>
+                    <Link href="/#about-section">About</Link>
                 </li>
                 <li className="header__collections-link">
-                    <Link href="/">Collections</Link>
+                    <Link href="/#collection-section">Collections</Link>
                 </li>
                 <li className="header__collections-link">
-                    <Link href="/">Subscriptions</Link>
+                    <Link href="/#subscriptions-section">Subscriptions</Link>
                 </li>
             </ul>
             <ul className="header__logo">
-                <li><Link href="/">UG</Link></li>
+                <li><Link href="/#hero-section">UG</Link></li>
             </ul>   
             <ul className="header__collections-nav">
                 <li className="header__collections-link">

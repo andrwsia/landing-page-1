@@ -1,3 +1,4 @@
+// Main SCSS -- START //
 .hero-section {
     .hero__container {
         width: 100%;
@@ -103,6 +104,8 @@
         } 
     }
 }
+// Main SCSS -- END //
+
 @media only screen and (max-width: 895px) {
     .hero-section {
         .hero__container {
