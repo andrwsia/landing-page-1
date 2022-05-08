@@ -22,11 +22,11 @@ export default function About() {
                                     direct trade chicharrones freegan art party vexillologist enamel 
                                     pin typewriter pabst. Fashion axe PBR&B biodiesel trust fund portland. 
                                     Offal lumbersexual irony hell of la croix. YOLO chartreuse dreamcatcher 
-                                    you probably haven't heard of them kickstarter narwhal paleo poke echo park.
+                                    you probably have heard of them kickstarter narwhal paleo poke echo park.
                                 </p>
                             </div>
                             <div className='about__button'>
-                                <a href="/" className="abt__button">Explore</a>
+                                <Link href="/" className="abt__button">Explore</Link>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export default function About() {
                                     direct trade chicharrones freegan art party vexillologist enamel 
                                     pin typewriter pabst. Fashion axe PBR&B biodiesel trust fund portland. 
                                     Offal lumbersexual irony hell of la croix. YOLO chartreuse dreamcatcher 
-                                    you probably haven't heard of them kickstarter narwhal paleo poke echo park.
+                                    you probably haven heard of them kickstarter narwhal paleo poke echo park.
                                 </p>
                             </div>
                         </div>

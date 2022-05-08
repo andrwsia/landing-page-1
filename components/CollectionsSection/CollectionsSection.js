@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Collections() {
     return (
@@ -14,7 +15,7 @@ export default function Collections() {
                     <div className="collection__games-title-row row">
                         <div className="collection__games-info col-sm-12">
                             <p className="collection__games-title">Nintendo</p>
-                            <a href="/" className="collection__button">View More</a>
+                            <Link href="/" className="collection__button">View More</Link>
                         </div>
                     </div>
                     <div className="collection__games-row row">
@@ -40,7 +41,7 @@ export default function Collections() {
                     <div className="collection__games-title-row row">
                         <div className="collection__games-info col-sm-12">
                             <p className="collection__games-title">Playstation</p>
-                            <a href="/" className="collection__button">View More</a>
+                            <Link href="/" className="collection__button">View More</Link>
                         </div>
                     </div>
                     <div className="collection__games-row row">
@@ -66,7 +67,7 @@ export default function Collections() {
                     <div className="collection__games-title-row row">
                         <div className="collection__games-info col-sm-12">
                             <p className="collection__games-title">Xbox</p>
-                            <a href="/" className="collection__button">View More</a>
+                            <Link href="/" className="collection__button">View More</Link>
                         </div>
                     </div>
                     <div className="collection__games-row row">

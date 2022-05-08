@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function footer() {
     return (
         <footer className="footer">
@@ -6,25 +8,25 @@ export default function footer() {
                     <div className="footer__col col-sm-3">
                         <div className="footer__sub-container"> 
                             <p>Support</p>
-                            <a href="/" className="footer__link">Support Center</a>        
-                            <a href="/" className="footer__link">Contact Us</a>    
-                            <a href="/" className="footer__link">Do not sell my information</a>
+                            <Link href="/" className="footer__link">Support Center</Link>        
+                            <Link href="/" className="footer__link">Contact Us</Link>    
+                            <Link href="/" className="footer__link">Do not sell my information</Link>
                         </div>
                     </div>
                     <div className="footer__col col-sm-3">
                         <div className="footer__sub-container"> 
                             <p>About</p>
-                            <a href="/" className="footer__link">About Us</a>             
-                            <a href="/" className="footer__link">Privacy Policy</a>
-                            <a href="/" className="footer__link">Terms of Use</a>
+                            <Link href="/" className="footer__link">About Us</Link>             
+                            <Link href="/" className="footer__link">Privacy Policy</Link>
+                            <Link href="/" className="footer__link">Terms of Use</Link>
                         </div>
                     </div>
                     <div className="footer__col col-sm-3">
                         <div className="footer__sub-container"> 
                             <p>Social Media</p>
-                            <a href="/" className="footer__link"><i class="fa-brands fa-twitter"></i></a>   
-                            <a href="/" className="footer__link"><i class="fa-brands fa-facebook-f"></i></a>   
-                            <a href="/" className="footer__link"><i class="fa-brands fa-instagram"></i></a>
+                            <Link href="/" className="footer__link"><i className="fa-brands fa-twitter"></i></Link>   
+                            <Link href="/" className="footer__link"><i className="fa-brands fa-facebook-f"></i></Link>   
+                            <Link href="/" className="footer__link"><i className="fa-brands fa-instagram"></i></Link>
                         </div> 
                     </div>
                 </div>

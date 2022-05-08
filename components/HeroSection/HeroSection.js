@@ -19,8 +19,8 @@ export default function HeroSection() {
                             <h2>Gaming</h2>
                         </div>
                         <div className='hero-info__info'>
-                            <a href="/" className="soi__button">Play Now</a>
-                            <a href="/" className="soi__button">About Us</a>
+                            <Link href="/" className="soi__button">Play Now</Link>
+                            <Link href="/" className="soi__button">About Us</Link>
                         </div>
                     </div>
                 </div>
