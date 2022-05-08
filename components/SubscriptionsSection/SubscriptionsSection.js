@@ -28,7 +28,7 @@ export default function Subscriptions() {
                     </div>
                     <div className='subscriptions__plan-container col-md-4'>
                         <div className='subscriptions__plan'>
-                        <p className='subscriptions__months'><span>1</span>Months</p>
+                            <p className='subscriptions__months'><span>1</span>Months</p>
                             <p className='subscriptions__details'><span>$9.99</span> every 1 month</p>
                             <Link href="/" className="subscriptions__button">Add to Cart</Link>
                         </div>

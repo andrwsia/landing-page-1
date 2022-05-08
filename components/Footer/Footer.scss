@@ -14,19 +14,26 @@
                 display: flex;
                 justify-content: center;
                 .footer__sub-container {
+                    display: flex;
+                    flex-direction: column;
                     p {
                         display: block;
-                        font-size: 1.75rem;
+                        font-size: 1rem;
                     }
                     a {
                         display: block;
                         color: white;
                         text-decoration: none;
-                        font-size: 1.25rem;
+                        font-size: 1rem;
                         transition: all 0.3s ease-in-out;
+                        line-height: 1.75rem;
+                        
                         &:hover {
                             color: #FF0000;
                         }
+                    }
+                    .fa-brands {
+                        line-height: 1.75rem;
                     }
                 }    
             }

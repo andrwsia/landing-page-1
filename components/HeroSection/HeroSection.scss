@@ -19,13 +19,13 @@
             }
         }
         .hero__side-two {
-            background-color: #2d3727;
+            background-color: #10002b;
             width: 25vw;
             position: relative;
             height: 100vh; 
         }
         .hero-info__container {
-            background-color: rgba(0,0,0,0.25);
+            background-color: rgba(0,0,0,0.5);
             position: absolute;
             top: 0;
             left: 0;
@@ -48,12 +48,11 @@
                     justify-content: center;
                     h1 {
                         margin-left: 250px;
-                        color: #3a3b9c;
+                        color: #ffffff;
                         font-size: 9rem;
                         font-weight: 700;
                         font-style: italic;
                         text-transform: uppercase;
-                        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
                     }                
                 }
                 .hero-info__h2 {
@@ -66,12 +65,11 @@
                     justify-content: center;
                     h2 {
                         margin-right: 250px;
-                        color: #3a3b9c;
+                        color: #ffffff;
                         font-size: 9rem;
                         font-weight: 700;
                         font-style: italic;
                         text-transform: uppercase;
-                        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
                     }
                 }
                 .hero-info__info {
@@ -88,7 +86,7 @@
                         font-size: 2rem;
                         font-weight: 500;
                         text-transform: uppercase;
-                        border: 5px solid white;
+                        border: 2.5px solid white;
                         border-radius: 50px;
                         transition: all 0.3s ease-in-out;
                         padding: 15px;
@@ -179,7 +177,7 @@
                     }
                     .hero-info__info {          
                         a {
-                            font-size: .85rem;
+                            font-size: 1rem;
                         }
                     }
                 }
@@ -206,7 +204,7 @@
                     }
                     .hero-info__info {          
                         a {
-                            font-size: .65rem;
+                            font-size: 1rem;
                         }
                     }
                 }

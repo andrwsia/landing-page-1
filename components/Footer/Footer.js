@@ -5,7 +5,7 @@ export default function footer() {
         <footer className="footer">
             <div className="footer__container">
                 <div className="footer__row row">
-                    <div className="footer__col col-sm-3">
+                    <div className="footer__col col-3">
                         <div className="footer__sub-container"> 
                             <p>Support</p>
                             <Link href="/" className="footer__link">Support Center</Link>        
@@ -13,7 +13,7 @@ export default function footer() {
                             <Link href="/" className="footer__link">Do not sell my information</Link>
                         </div>
                     </div>
-                    <div className="footer__col col-sm-3">
+                    <div className="footer__col col-3">
                         <div className="footer__sub-container"> 
                             <p>About</p>
                             <Link href="/" className="footer__link">About Us</Link>             
@@ -21,7 +21,7 @@ export default function footer() {
                             <Link href="/" className="footer__link">Terms of Use</Link>
                         </div>
                     </div>
-                    <div className="footer__col col-sm-3">
+                    <div className="footer__col col-3">
                         <div className="footer__sub-container"> 
                             <p>Social Media</p>
                             <Link href="/" className="footer__link"><i className="fa-brands fa-twitter"></i></Link>   
