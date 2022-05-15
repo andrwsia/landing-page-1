@@ -13,7 +13,7 @@ export default function Document() {
                 <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200;300;500;600;700&display=swap" rel="stylesheet" />
                 {/* Global site tag (gtag.js) - Google Analytics */}
                 <script>
-                    async src="https://www.googletagmanager.com/gtag/js?id=G-6QZQ32GWGF"
+                    async src={`https://www.googletagmanager.com/gtag/js?id=G-6QZQ32GWGF`}
                 </script>
                 <script>
                     dangerouslySetInnerHTML={{
