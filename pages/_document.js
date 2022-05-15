@@ -13,6 +13,7 @@ export default function Document() {
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200;300;500;600;700&display=swap" rel="stylesheet" />
             </Head>
+
             {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
             <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-6QZQ32GWGF"
@@ -27,6 +28,7 @@ export default function Document() {
                 gtag('config', 'G-6QZQ32GWGF');
             `}
             </Script>
+            
             <body>
                 <Main />
                 <NextScript />
