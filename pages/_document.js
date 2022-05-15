@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
     return (
@@ -12,19 +13,16 @@ export default function Document() {
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200;300;500;600;700&display=swap" rel="stylesheet" />
                 {/* Global site tag (gtag.js) - Google Analytics */}
-                <script>
-                    async src={`https://www.googletagmanager.com/gtag/js?id=G-6QZQ32GWGF`}
-                </script>
-                <script>
-                    dangerouslySetInnerHTML={{
-                    __html: `
+                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6QZQ32GWGF"></Script>
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`
                     window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
+                    function gtag(){window.dataLayer.push(arguments);}
                     gtag('js', new Date());
+
                     gtag('config', 'G-6QZQ32GWGF');
-                    `,
-                    }}
-                </script>
+                    `}
+                </Script>
                 </Head>
                     <body>
                         <Main />
