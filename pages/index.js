@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <MainLayout>
       <Head>
-        <title>Landing Page Project</title>
+        <title>AJS Landing Page Project 1</title>
         <meta name="project" content="Landing Page Project" />
       </Head>
       <HeroSection />
